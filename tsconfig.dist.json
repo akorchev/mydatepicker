@@ -16,7 +16,7 @@
   "exclude": [
     "node_modules"
   ],
-  "files": [
-    "./src/my-date-picker/index.ts"
+  "include": [
+    "./src/my-date-picker/**/*.ts"
   ]
 }

@@ -13,6 +13,8 @@
     "type": "git",
     "url": "https://github.com/kekeh/mydatepicker.git"
   },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "LICENSE",
     "package.json",
@@ -35,13 +37,13 @@
     "build.webpack.sampleapp": "rimraf build && webpack --config config/webpack.sampleapp.build.js --progress --profile --bail",
     "test": "karma start config/karma.conf.js"
   },
-  "dependencies": {},
   "devDependencies": {
     "@angular/common": "~2.0.1",
     "@angular/compiler": "~2.0.1",
     "@angular/core": "~2.0.1",
     "@angular/platform-browser": "~2.0.1",
     "@angular/platform-browser-dynamic": "~2.0.1",
+    "@types/core-js": "^0.9.34",
     "@types/jasmine": "^2.2.34",
     "@types/node": "^6.0.39",
     "codecov": "^1.0.1",
